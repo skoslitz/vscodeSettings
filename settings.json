@@ -1,0 +1,75 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.minimap.enabled": false,
+	"editor.tabSize": 2,
+	"editor.fontSize": 17,
+	"editor.formatOnSave": false,
+	"html.format.indentHandlebars": true,
+	"html.format.wrapLineLength": 0,
+	"editor.fontFamily": "Fira Code, Hasklig, Input Mono, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": true,
+	
+
+
+	
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.meteor/local": true,
+		"**/.npm": true,
+		"**/.vscode": true
+	},
+	// Konfigurieren Sie Globmuster von Dateipfaden, die aus der Dateiüberwachung ausgeschlossen werden sollen. Das Ändern dieser Einstellung erfordert einen Neustart. Wenn Ihr Code beim Starten viel CPU-Zeit benötigt, können Sie große Ordner ausschließen, um die Anfangslast zu verringern.
+	"files.watcherExclude": {
+		"**/node_modules": true,
+		"**/.git/objects/**": true,
+		"**/.npm": true,
+		"**/.vscode": true,
+		"**/.DS_Store": true,
+		"**/.meteor/local": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/.git": true,
+		"**/.npm": true,
+		"**/.vscode": true,
+		"**/.DS_Store": true,
+		"**/.meteor/local": true
+	},
+	"files.associations": {
+		"*.html": "html"
+	},
+	// Gibt an, ob automatischer Abruf aktiviert ist.
+	"git.autofetch": false,
+	"git.autorefresh": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+	"workbench.colorTheme": "ColorBrewer",
+	"eslint.autoFixOnSave": true,
+	"java.errors.incompleteClasspath.severity": "ignore",
+	"explorer.confirmDelete": false,
+	"window.zoomLevel": 0,
+	"terminal.integrated.fontSize": 18,
+	"telemetry.enableTelemetry": false,
+	"workbench.activityBar.visible": false,
+	"workbench.colorCustomizations": {
+		"editorIndentGuide.background": "#4b4b4b",
+		"statusBar.background" : "#2ca25f",
+    "statusBar.noFolderBackground" : "#2ca25f",
+    "statusBar.debuggingBackground": "#2ca25f"
+	},
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": false,
+	"git.confirmSync": false,
+	"[javascriptreact]": {
+    "editor.formatOnSave": true
+	},
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"explorer.confirmDragAndDrop": false,
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"svn.enableProposedApi": "none",
+	"java.configuration.checkProjectSettingsExclusions": false
+	}
+	
