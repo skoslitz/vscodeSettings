@@ -1,0 +1,22 @@
+{
+    "name": "colorbrewer",
+    "displayName": "ColorBrewer",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "mbostock",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ColorBrewer",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ColorBrewer-color-theme.json"
+            }
+        ]
+    }
+}

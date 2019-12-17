@@ -1,0 +1,88 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#2d2d2d",
+				"foreground": "#cccccc"
+			}
+		},
+		{
+			"name": "Blue",
+			"scope": [
+				"punctuation.definition.tag",
+				"storage",
+				"entity.name.tag",
+				"support.constant",
+				"keyword.control",
+				"keyword.operator",
+				"meta.selector"
+			],
+			"settings": {
+				"foreground": "#6baed6"
+			}
+		},
+		{
+			"name": "Pink",
+			"scope": [
+				"support.function",
+				"variable.language",
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#e377c2"
+			}
+		},
+		{
+			"name": "Orange",
+			"scope": [
+				"entity.other.attribute-name.xml",
+				"entity.other.attribute-name.html",
+				"entity.name.function",
+				"support.class",
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#fd8d3c"
+			}
+		},
+		{
+			"name": "Green",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.language",
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#74c476"
+			}
+		},
+		{
+			"name": "Purple",
+			"scope": "string",
+			"settings": {
+				"foreground": "#9e9ac8"
+			}
+		},
+		{
+			"name": "Gray",
+			"scope": [
+				"comment",
+				"meta.brace.square",
+				"meta.delimiter.method.period"
+			],
+			"settings": {
+				"foreground": "#969696"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#2d2d2d",
+		"editorCursor.foreground": "#cccccc",
+		"editor.foreground": "#cccccc",
+		"editorWhitespace.foreground": "#cccccc",
+		"editor.lineHighlightBackground": "#515151",
+		"editor.selectionBackground": "#515151"
+	},
+	"name": "ColorBrewer"
+}
